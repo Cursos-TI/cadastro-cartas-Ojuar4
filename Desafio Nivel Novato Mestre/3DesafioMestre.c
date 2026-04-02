@@ -111,8 +111,8 @@ int resultadoArea = (area1 > area2);
 int resultadoPib = (pib1 > pib2);
 int resultadoPontosTuristicos = (pontosturisticos1 > pontosturisticos2);
 int resultadoPibPerCapita = (pibpercapita1 > pibpercapita2);
-int resultadoDensidade = (densidade1 > densidade2); // MENOR DENSIDADE POPULACIONAL É MELHOR
-int resultadopibpercapita = (pibpercapita1 < pibpercapita2);
+int resultadoDensidade = (densidade1 < densidade2); // MENOR DENSIDADE POPULACIONAL É MELHOR
+int resultadopibpercapita = (pibpercapita1 > pibpercapita2);
 int resultadoSuperPoder = (superpodercarta1 > superpodercarta2);
 
 printf("\nComparação dos Atributos:\n");
